@@ -1,5 +1,5 @@
 // let init_id = 940
-buildCharts(943);
+buildCharts(940);
 function buildCharts(selected_id) {
     d3.json("samples.json").then(data => {
         console.log(data);
